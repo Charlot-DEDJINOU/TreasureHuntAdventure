@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Container , Form ,  Button} from "react-bootstrap";
 import { useForm } from 'react-hook-form';
 import RedirectionVersSite from "../layout/Forward";
-import maisonEnseignant from "../../assets/maisonEnseignant.jpg"
-import maisonEnseignantTreasure from "../../assets/maisonEnseignantTreasure.jpg"
+import jardinBotanique from "../../assets/jardinBotanique.jpg"
+import jardinBotaniqueTreasure from "../../assets/jardinBotaniqueTreasure.jpg"
 
 function Jardin() {
 
@@ -34,6 +34,7 @@ function Jardin() {
                     <li>Mon deuxième est le contraire de "dur".</li>
                     <li>Mon tout est un lieu plein de verdure,</li>
                     <li>Où l'on cultive et admire la nature.</li>
+                    <li>Je suis en un mot</li>
                 </ul>
             </div>
             <Form className="mb-3"  onSubmit={handleSubmit(handleResponse)}>
@@ -50,8 +51,8 @@ function Jardin() {
                 show && 
                 <div className="d-flex flex-column align-items-center">
                     <h2 className="mb-3">Jardin Botanique</h2>
-                    <img src={maisonEnseignant} alt="gbios" className="mb-3"/>
-                    <img src={maisonEnseignantTreasure} alt="gbios" className="mb-3"/>
+                    <img src={jardinBotanique} alt="gbios" className="mb-3"/>
+                    <img src={jardinBotaniqueTreasure} alt="gbios" className="mb-3"/>
                     <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/k31Asp6n9ZeRgWBt6")}>
                         Localiser
                     </Button>

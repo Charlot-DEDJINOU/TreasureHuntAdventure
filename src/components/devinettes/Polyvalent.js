@@ -52,14 +52,14 @@ function Polyvalent() {
                     <li>Mon deuxième est le synonyme de "capable et compétent",</li>
                     <li>Mon tout désigne une personne versatile.</li>
                 </ul>
-                <div class="mb-3">
-                <h3>Directive 3</h3>
-                    <ul>
-                        <li>Ma première partie est le préfixe qui signifie "nombreux",</li>
-                        <li>Ma seconde partie est un adjectif synonyme de "capable",</li>
-                        <li>En me combinant, je décris une personne très compétente.</li>
-                    </ul>
-                </div>
+            <div class="mb-3">
+            <h3>Directive 3</h3>
+                <ul>
+                    <li>Ma première partie est le préfixe qui signifie "nombreux",</li>
+                    <li>Ma seconde partie est un adjectif synonyme de "capable",</li>
+                    <li>En me combinant, je décris une personne très compétente.</li>
+                </ul>
+            </div>
             </div>
             <Form className="mb-3"  onSubmit={handleSubmit(handleResponse)}>
                 <Form.Group className="mb-3" controlId="formBasicPassword">

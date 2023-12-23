@@ -29,16 +29,62 @@ function Enseignant() {
         <Container className="mt-5">
             <div class="mb-3">
             <h3>Devinette Mathématique</h3>
+
             <ul>
-                <li>Mon premier est la racine carrée du carré d'un nombre, et il vaut 5.</li>
-                <li>Mon deuxième est la solution d'une équation quadratique <code>b^2 - 13b + 36 = 0</code>.</li>
-                <li>Mon troisième est la solution d'une équation quadratique complexe <code>(c^2 / 2) - 5c + 25 = 0</code>.</li>
-                <li>Mon quatrième est la solution d'une équation quadratique <code>d^2 + 4d - 45 = 0</code>.</li>
-                <li>Mon cinquième est la solution d'une équation cubique <code>e^3 - 27 = 0</code>.</li>
-                <li>Mon sixième est la solution d'une équation quadratique <code>f^2 - 14f + 49 = 0</code>.</li>
-                <li>Mon septième est la solution d'une équation quadratique complexe <code>(g^2 / 2) - 10g + 100 = 0</code>.</li>
-                <li>Mon huitième est la solution d'une équation quadratique <code>h^2 + h - 20 = 0</code>.</li>
+            <li>Les solutions aux équations sont la position de chaque lettre formant le mot dans l'alphabet français</li>
+            <li>
+                Mon premier est la racine carrée du carré d'un nombre, et il vaut 5.
+            </li>
+            <li>
+                Mon deuxième est la solution d'une équation quadratique{" "}
+                <code>
+                b<sup>2</sup> - 13b + 36 = 0
+                </code>.
+            </li>
+            <li>
+                Mon troisième est la solution d'une équation quadratique complexe{" "}
+                <code>
+                (
+                <sup>c</sup>
+                <sup>2</sup>
+                / 2) - 5c + 25 = 0
+                </code>.
+            </li>
+            <li>
+                Mon quatrième est la solution d'une équation quadratique{" "}
+                <code>
+                d<sup>2</sup> + 4d - 45 = 0
+                </code>.
+            </li>
+            <li>
+                Mon cinquième est la solution d'une équation cubique{" "}
+                <code>
+                e<sup>3</sup> - 27 = 0
+                </code>.
+            </li>
+            <li>
+                Mon sixième est la solution d'une équation quadratique{" "}
+                <code>
+                f<sup>2</sup> - 14f + 49 = 0
+                </code>.
+            </li>
+            <li>
+                Mon septième est la solution d'une équation quadratique complexe{" "}
+                <code>
+                (
+                <sup>g</sup>
+                <sup>2</sup>
+                / 2) - 10g + 100 = 0
+                </code>.
+            </li>
+            <li>
+                Mon huitième est la solution d'une équation quadratique{" "}
+                <code>
+                h<sup>2</sup> + h - 20 = 0
+                </code>.
+            </li>
             </ul>
+
             <p>Réunissez mes parties, et vous obtiendrez un mot qui décrit une personne jouant un rôle crucial dans la transmission du savoir. Quel est ce mot?</p>
             </div>
             <Form className="mb-3"  onSubmit={handleSubmit(handleResponse)}>
@@ -54,10 +100,10 @@ function Enseignant() {
             {
                 show && 
                 <div className="d-flex flex-column align-items-center">
-                    <h2 className="mb-3">GBIOS</h2>
+                    <h2 className="mb-3">La Maison de L'enseignant</h2>
                     <img src={maisonEnseignant} alt="gbios" className="mb-3"/>
                     <img src={maisonEnseignantTreasure} alt="gbios" className="mb-3"/>
-                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/WUNpXswXJzK84QP27")}>
+                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/DxrEXEbhLxhcrQdUA")}>
                         Localiser
                     </Button>
                 </div>
