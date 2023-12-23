@@ -17,7 +17,7 @@ function Enam() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'enam') {
+        if(answer.includes('enam') === true) {
             setShow(true)
         }
         else {

@@ -17,7 +17,7 @@ function Gbios() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'gbios') {
+        if(answer.includes('gbios') === true) {
             setShow(true)
         }
         else {

@@ -17,7 +17,7 @@ function Confucius() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'confucius') {
+        if(answer.includes('confucius') === true) {
             setShow(true)
         }
         else {

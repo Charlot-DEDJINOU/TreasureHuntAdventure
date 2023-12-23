@@ -17,7 +17,7 @@ function Obama() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'obama') {
+        if(answer.includes('obama') === true) {
             setShow(true)
         }
         else {

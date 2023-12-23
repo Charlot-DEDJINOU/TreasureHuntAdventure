@@ -17,7 +17,7 @@ function Station() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'station') {
+        if(answer.includes('station') === true) {
             setShow(true)
         }
         else {

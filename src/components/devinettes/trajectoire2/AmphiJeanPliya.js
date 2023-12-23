@@ -17,7 +17,7 @@ function AmphiAmoussougan() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'jean pliya') {
+        if(answer.includes('jean pliya') === true) {
             setShow(true)
         }
         else {

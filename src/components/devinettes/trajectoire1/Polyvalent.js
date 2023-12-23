@@ -17,7 +17,7 @@ function Polyvalent() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'polyvalent') {
+        if(answer.includes('polyvalent') === true) {
             setShow(true)
         }
         else {

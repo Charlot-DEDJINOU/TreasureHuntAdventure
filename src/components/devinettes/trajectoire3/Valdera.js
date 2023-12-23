@@ -17,7 +17,7 @@ function Valdera() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'valdera') {
+        if(answer.includes('valdera') === true) {
             setShow(true)
         }
         else {

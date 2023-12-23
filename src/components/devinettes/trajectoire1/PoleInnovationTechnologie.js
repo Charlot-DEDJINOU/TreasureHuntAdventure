@@ -17,7 +17,7 @@ function PoleInnovationTechnologie() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'pole innovation technologie') {
+        if(answer.includes('pole innovation technologie') === true ) {
             setShow(true)
         }
         else {

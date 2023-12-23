@@ -17,7 +17,7 @@ function Moocs() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'charade') {
+        if(answer.includes('charade') === true ) {
             setShow(true)
         }
         else {

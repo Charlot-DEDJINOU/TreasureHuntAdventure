@@ -17,7 +17,7 @@ function Auf() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'auf') {
+        if(answer.includes('auf') === true) {
             setShow(true)
         }
         else {

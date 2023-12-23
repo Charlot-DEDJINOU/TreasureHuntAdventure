@@ -17,7 +17,7 @@ function Jardin() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'jardin') {
+        if(answer.includes('jardin') === true) {
             setShow(true)
         }
         else {

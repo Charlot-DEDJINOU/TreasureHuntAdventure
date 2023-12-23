@@ -17,7 +17,7 @@ function ViceRectorat() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'nenuphar') {
+        if(answer.includes('nenuphar') === true ) {
             setShow(true)
         }
         else {

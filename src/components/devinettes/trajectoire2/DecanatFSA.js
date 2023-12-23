@@ -17,7 +17,7 @@ function DecanatFSA() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'decanat fsa') {
+        if(answer.includes('decanat fsa') === true ) {
             setShow(true)
         }
         else {

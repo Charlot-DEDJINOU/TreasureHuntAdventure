@@ -14,7 +14,7 @@ function Last() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'incorrect') {
+        if(answer.includes('incorrect') === true) {
             setShow(true)
         }
         else {
@@ -37,7 +37,7 @@ function Last() {
             {
                 show && 
                 <div className="d-flex flex-column align-items-center text-center fs-3 mt-5">
-                   Je suis le premier et le dernier. L'alpha et l'omega
+                   Je suis le premier et le dernier. Le début et la fin
                 </div>
             }
         </Container>

@@ -16,7 +16,7 @@ function BatimentE() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'residence bid e') {
+        if(answer.includes('residence bid e') === true){
             setShow(true)
         }
         else {

@@ -18,7 +18,7 @@ function Ine() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'ine') {
+        if(answer.includes('ine') === true){
             setShow(true)
         }
         else {

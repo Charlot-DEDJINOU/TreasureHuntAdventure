@@ -17,7 +17,7 @@ function Enseignant() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'enseignant') {
+        if(answer.includes('enseignant') === true) {
             setShow(true)
         }
         else {

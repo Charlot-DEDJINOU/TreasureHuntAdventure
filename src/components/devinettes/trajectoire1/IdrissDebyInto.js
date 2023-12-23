@@ -17,7 +17,7 @@ function IdrissDeby() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'hippopotame') {
+        if(answer.includes('hippopotame') === true ) {
             setShow(true)
         }
         else {
