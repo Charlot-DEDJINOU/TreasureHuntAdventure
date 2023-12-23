@@ -28,7 +28,7 @@ function Jardin() {
     return (
         <Container className="mt-5">
             <div class="mb-3">
-            <h3>Énigme - Trouver le mot</h3>
+            <h3>Trouver le mot</h3>
                 <ul>
                     <li>Mon premier est là où la terre rencontre la mer,</li>
                     <li>Mon deuxième est le contraire de "dur".</li>
