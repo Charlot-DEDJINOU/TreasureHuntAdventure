@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Container , Form ,  Button} from "react-bootstrap";
 import { useForm } from 'react-hook-form';
-import RedirectionVersSite from "../layout/Forward";
-import conficiusTreasure from "../../assets/conficiusTreasure.jpg"
-import conficius from "../../assets/conficius.jpg"
+import RedirectionVersSite from "../../layout/Forward";
+import valderaTreasure from "../../../assets/valderaTreasure.jpg"
+import valdera from "../../../assets/valdera.jpg"
 
-function Confucius() {
+function Valdera() {
 
     const {
         register,
@@ -17,7 +17,7 @@ function Confucius() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'confucius') {
+        if(answer === 'valdera') {
             setShow(true)
         }
         else {
@@ -30,9 +30,11 @@ function Confucius() {
             <div className="mb-3">
                 <h3 className="mb-3">Directives</h3>
                 <ul>
-                    <li className="fst-italic mb-3">“Je ne cherche pas à connaître les réponses, je cherche à comprendre les questions.”</li>
-                    <li className="fst-italic mb-3">“Choisissez un travail que vous aimez et vous n'aurez pas à travailler un seul jour de votre vie.”</li>
-                    <li className="fst-italic mb-3">“Quand on peut accomplir sa promesse sans manquer à la justice, il faut tenir sa parole.”</li>
+                    <li className="mb-3">Mon premier est utilisé dans le foot pour prendre des décisions,</li>
+                    <li className="mb-3">Mon deuxième est la lettre L, une évidence sans prétentions.</li>
+                    <li className="mb-3">Mon troisième est un cube à six faces, numéroté avec raison,</li>
+                    <li className="mb-3">Mon quatrième est un animal des égouts, souvent en scène dans les fictions.</li>
+                    <li className="mb-3">Mon tout est sur le campus d'Abomey Calavi</li>
                 </ul> 
             </div>
             <Form className="mb-3"  onSubmit={handleSubmit(handleResponse)}>
@@ -48,9 +50,9 @@ function Confucius() {
             {
                 show && 
                 <div className="d-flex flex-column align-items-center">
-                    <h2 className="mb-3">Conficius</h2>
-                    <img src={conficius} alt="gbios" className="mb-3"/>
-                    <img src={conficiusTreasure} alt="gbios" className="mb-3"/>
+                    <h2 className="mb-3">Valdera</h2>
+                    <img src={valdera} alt="gbios" className="mb-3"/>
+                    <img src={valderaTreasure} alt="gbios" className="mb-3"/>
                     <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/tzTmyBTVGn5f3HXH9")}>
                         Localiser
                     </Button>
@@ -60,4 +62,4 @@ function Confucius() {
     )
 }
 
-export default Confucius
+export default Valdera

@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Container , Form ,  Button} from "react-bootstrap";
 import { useForm } from 'react-hook-form';
-import RedirectionVersSite from "../layout/Forward";
-import moocsTreasure from "../../assets/moocsTreasure.jpg"
-import moocs from "../../assets/moocs.jpg"
+import RedirectionVersSite from "../../layout/Forward";
+import amphiAmoussouganTreasure from "../../../assets/amphiAmoussouganTreasure.jpg"
+import amphiAmoussougan from "../../../assets/amphiAmoussougan.jpg"
 
-function Moocs() {
+function AmphiAmoussougan() {
 
     const {
         register,
@@ -17,7 +17,7 @@ function Moocs() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'charade') {
+        if(answer === 'jean pliya') {
             setShow(true)
         }
         else {
@@ -28,14 +28,12 @@ function Moocs() {
     return (
         <Container className="mt-5">
             <div className="mb-3">
-                <h3>Directives</h3>
+                <h3 className="mb-3">Directives</h3>
                 <ul>
-                    <li>Je suis en un mot</li>
-                    <li>Mon premier est un animal qui mange des souris</li>
-                    <li>Mon deuxième est un animal qui vit dans les égouts.</li>
-                    <li>Mon troisième est un chiffre entre un et cinq.</li>
-                    <li>Mon tout est ce que je suis en train de faire.</li>
-                </ul>
+                    <li className="fst-italic mb-3">“Si la cadence d'un tam-tam change, il faut que change aussi le pas des danseurs.”</li>
+                    <li className="fst-italic mb-3">“La vie d'un homme, fût-il esclave, est sacrée et personne n'a le droit de la supprimer ou même de se donner à mort.”</li>
+                    <li className="fst-italic mb-3">“Les doigts sont inégaux, mais réunis ils font merveille.”</li>
+                </ul> 
             </div>
             <Form className="mb-3"  onSubmit={handleSubmit(handleResponse)}>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -50,10 +48,10 @@ function Moocs() {
             {
                 show && 
                 <div className="d-flex flex-column align-items-center">
-                    <h2 className="mb-3">Moocs</h2>
-                    <img src={moocs} alt="moocs" className="mb-3"/>
-                    <img src={moocsTreasure} alt="moocs" className="mb-3"/>
-                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/UmsffxeHhkXh3Sys7")}>
+                    <h2 className="mb-3">Amphi AMOUSSOUGAN</h2>
+                    <img src={amphiAmoussougan} alt="gbios" className="mb-3"/>
+                    <img src={amphiAmoussouganTreasure} alt="gbios" className="mb-3"/>
+                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/tzTmyBTVGn5f3HXH9")}>
                         Localiser
                     </Button>
                 </div>
@@ -62,4 +60,4 @@ function Moocs() {
     )
 }
 
-export default Moocs
+export default AmphiAmoussougan

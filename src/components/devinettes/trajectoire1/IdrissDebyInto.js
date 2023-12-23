@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Container , Form ,  Button} from "react-bootstrap";
 import { useForm } from 'react-hook-form';
-import RedirectionVersSite from "../layout/Forward";
-import aufTreasure from "../../assets/aufTreasure.jpg"
-import auf from "../../assets/auf.jpg"
+import RedirectionVersSite from "../../layout/Forward";
+import idrissDebyTreasure from "../../../assets/idrissDebyTreasure.jpg"
+import idrissDeby from "../../../assets/idrissDeby.jpeg"
 
-function Auf() {
+function IdrissDeby() {
 
     const {
         register,
@@ -17,7 +17,7 @@ function Auf() {
     const handleResponse = (data) => {
         const answer = data.reponse.toLowerCase()
 
-        if(answer === 'auf') {
+        if(answer === 'hippopotame') {
             setShow(true)
         }
         else {
@@ -28,23 +28,16 @@ function Auf() {
     return (
         <Container className="mt-5">
             <div className="mb-3">
-                <h3>Directive 1</h3>
-                <p>
-                    Par-delà les frontières, dans le monde des savoirs partagés,
-                    Une agence veille, son trésor bien caché.
-                    Entre les langues qui dansent, découvrez le message,
-                    Le trésor est là où le francophone prend son ancrage.
-
-                </p>
-            </div>
-            <div className="mb-3">
-                <h3>Directive 2</h3>
+                <h3 className="mb-3">Directives</h3>
                 <ul>
-                        <li>Je suis en un mot, une énigme à explorer,</li>
-                        <li>Ma première partie est une lettre à repérer.</li>
-                        <li>Un mot à 3 lettres, où la U est présente,</li>
-                        <li>Là où l'université et la francophonie font leur danse.</li>
-                </ul> 
+                    <li className="mb-3">Je suis en un mot</li>
+                    <li className="mb-3">Mon premier est la lettre I</li>
+                    <li className="mb-3">Mon deuxième recouvre tout notre corps.</li>
+                    <li className="mb-3">Mon troisième est un récipient.</li>
+                    <li className="mb-3">Mon quatrième est un pronom possessif.</li>
+                    <li className="mb-3">Mon cinquième est un pronom possessif.</li>
+                    <li className="mb-3">Mon tout est un animal pas commode.</li>
+                </ul>
             </div>
             <Form className="mb-3"  onSubmit={handleSubmit(handleResponse)}>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -59,10 +52,10 @@ function Auf() {
             {
                 show && 
                 <div className="d-flex flex-column align-items-center">
-                    <h2 className="mb-3">AUF</h2>
-                    <img src={auf} alt="gbios" className="mb-3"/>
-                    <img src={aufTreasure} alt="gbios" className="mb-3"/>
-                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/CWLA3RVz2GT5Xc6D6")}>
+                    <h2 className="mb-3">Amphi IDRISS DEBY</h2>
+                    <img src={idrissDeby} alt="idrissDeby" className="mb-3"/>
+                    <img src={idrissDebyTreasure} alt="idrissDeby" className="mb-3"/>
+                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/UmsffxeHhkXh3Sys7")}>
                         Localiser
                     </Button>
                 </div>
@@ -71,4 +64,4 @@ function Auf() {
     )
 }
 
-export default Auf
+export default IdrissDeby
