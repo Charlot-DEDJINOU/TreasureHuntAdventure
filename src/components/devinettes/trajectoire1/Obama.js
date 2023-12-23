@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Container , Form ,  Button} from "react-bootstrap";
 import { useForm } from 'react-hook-form';
-import RedirectionVersSite from "../layout/Forward";
-import obamaCenter from "../../assets/obamaCenter.jpg"
-import obamaCenterTreasure from "../../assets/obamaCenterTreasure.jpg"
+import RedirectionVersSite from "../../layout/Forward";
+import obamaCenter from "../../../assets/obamaCenter.jpg"
+import obamaCenterTreasure from "../../../assets/obamaCenterTreasure.jpg"
 
 function Obama() {
 
@@ -38,7 +38,7 @@ function Obama() {
             </div>
 
             <div class="mb-3">
-            <h3>Directive supplémentaire</h3>
+            <h3>Directive 1</h3>
             <ul>
                 <li>Mon premier nom est un palindrome,</li>
                 <li>Mon deuxième prénom signifie "béni" en arabe,</li>
@@ -52,6 +52,14 @@ function Obama() {
                 <li>J'ai remporté le prix Nobel de la paix en 2009,</li>
                 <li>Mon nom de famille commence par la lettre "O",</li>
                 <li>Durant mon mandat, "Yes, we can" était notre cri.</li>
+            </ul>
+            </div>
+
+            <div class="mb-3">
+            <h3>Directive 3</h3>
+            <ul>
+                <li>Je suis en un mot</li>
+                <li>Mon centre se trouve du l'UAC</li>
             </ul>
             </div>
 

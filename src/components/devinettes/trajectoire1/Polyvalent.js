@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Container , Form ,  Button} from "react-bootstrap";
 import { useForm } from 'react-hook-form';
-import RedirectionVersSite from "../layout/Forward";
-import batimentPolyvalent from "../../assets/batimentPolyvalent.jpg"
-import batimentPolyvalentTreasure from "../../assets/batimentPolyvalentTreasure.jpg"
+import RedirectionVersSite from "../../layout/Forward";
+import batimentPolyvalent from "../../../assets/batimentPolyvalent.jpg"
+import batimentPolyvalentTreasure from "../../../assets/batimentPolyvalentTreasure.jpg"
 
 function Polyvalent() {
 

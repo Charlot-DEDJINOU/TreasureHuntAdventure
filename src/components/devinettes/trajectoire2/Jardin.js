@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Container , Form ,  Button} from "react-bootstrap";
 import { useForm } from 'react-hook-form';
-import RedirectionVersSite from "../layout/Forward";
-import jardinBotanique from "../../assets/jardinBotanique.jpg"
-import jardinBotaniqueTreasure from "../../assets/jardinBotaniqueTreasure.jpg"
+import RedirectionVersSite from "../../layout/Forward";
+import jardinBotanique from "../../../assets/jardinBotanique.jpg"
+import jardinBotaniqueTreasure from "../../../assets/jardinBotaniqueTreasure.jpg"
 
 function Jardin() {
 

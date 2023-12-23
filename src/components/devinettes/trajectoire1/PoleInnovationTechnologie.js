@@ -56,7 +56,7 @@ function PoleInnovationTechnologie() {
                     <h3 className="mb-3 text-center">Pôle de l'Innovation et de la Technologie à l'UAC</h3>
                     <img src={poleInnovationTechnologie} alt="poleInnovationTechnologie" className="mb-3"/>
                     <img src={poleInnovationTechnologieTreasure} alt="gbios" className="mb-3"/>
-                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/WUNpXswXJzK84QP27")}>
+                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/RJCfQdowedgvQcSe8")}>
                         Localiser
                     </Button>
                 </div>

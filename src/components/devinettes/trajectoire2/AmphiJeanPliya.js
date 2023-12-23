@@ -51,7 +51,7 @@ function AmphiAmoussougan() {
                     <h2 className="mb-3">Amphi AMOUSSOUGAN</h2>
                     <img src={amphiAmoussougan} alt="gbios" className="mb-3"/>
                     <img src={amphiAmoussouganTreasure} alt="gbios" className="mb-3"/>
-                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/tzTmyBTVGn5f3HXH9")}>
+                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/Mc2vESqoJr8ennkm6")}>
                         Localiser
                     </Button>
                 </div>

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Container , Form ,  Button} from "react-bootstrap";
 import { useForm } from 'react-hook-form';
-import RedirectionVersSite from "../layout/Forward";
-import maisonEnseignant from "../../assets/maisonEnseignant.jpg"
-import maisonEnseignantTreasure from "../../assets/maisonEnseignantTreasure.jpg"
+import RedirectionVersSite from "../../layout/Forward";
+import maisonEnseignant from "../../../assets/maisonEnseignant.jpg"
+import maisonEnseignantTreasure from "../../../assets/maisonEnseignantTreasure.jpg"
 
 function Enseignant() {
 

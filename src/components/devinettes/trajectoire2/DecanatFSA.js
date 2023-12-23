@@ -55,7 +55,7 @@ function DecanatFSA() {
                     <h2 className="mb-3">Decanat de la FSA</h2>
                     <img src={decanatFSA} alt="decanatFSA" className="mb-3"/>
                     <img src={decanatTreasure} alt="gbios" className="mb-3"/>
-                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/WUNpXswXJzK84QP27")}>
+                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.google.com/?q=6.416652,2.341638&entry=gps")}>
                         Localiser
                     </Button>
                 </div>

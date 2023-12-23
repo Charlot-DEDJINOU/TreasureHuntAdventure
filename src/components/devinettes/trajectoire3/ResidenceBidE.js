@@ -56,7 +56,7 @@ function BatimentE() {
                             <h1>0</h1>
                             <h1>4</h1>
                     </div>
-                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/WUNpXswXJzK84QP27")}>
+                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/UoWktE2wMdpXHsuu8")}>
                         Localiser
                     </Button>
                 </div>

@@ -55,7 +55,7 @@ function IdrissDeby() {
                     <h2 className="mb-3">Amphi IDRISS DEBY</h2>
                     <img src={idrissDeby} alt="idrissDeby" className="mb-3"/>
                     <img src={idrissDebyTreasure} alt="idrissDeby" className="mb-3"/>
-                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/UmsffxeHhkXh3Sys7")}>
+                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/CcYm5kYmgF2yQMem7")}>
                         Localiser
                     </Button>
                 </div>

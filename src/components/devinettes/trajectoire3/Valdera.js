@@ -53,7 +53,7 @@ function Valdera() {
                     <h2 className="mb-3">Valdera</h2>
                     <img src={valdera} alt="gbios" className="mb-3"/>
                     <img src={valderaTreasure} alt="gbios" className="mb-3"/>
-                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/tzTmyBTVGn5f3HXH9")}>
+                    <Button variant="primary" className="location" type="submit" onClick={() => RedirectionVersSite("https://maps.app.goo.gl/96jK4qE9jSUAN5zG8")}>
                         Localiser
                     </Button>
                 </div>

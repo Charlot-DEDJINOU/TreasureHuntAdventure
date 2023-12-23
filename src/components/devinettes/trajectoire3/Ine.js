@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Container , Form ,  Button} from "react-bootstrap";
 import { useForm } from 'react-hook-form';
-import RedirectionVersSite from "../layout/Forward";
-import laboratoireIne from "../../assets/laboratoireIne.jpg"
-import laboratoireIneTreasure1 from "../../assets/laboratoireIneTreasure1.jpg"
-import laboratoireIneTreasure from '../../assets/laboratoireIneTreasure.jpg'
+import RedirectionVersSite from "../../layout/Forward";
+import laboratoireIne from "../../../assets/laboratoireIne.jpg"
+import laboratoireIneTreasure1 from "../../../assets/laboratoireIneTreasure1.jpg"
+import laboratoireIneTreasure from '../../../assets/laboratoireIneTreasure.jpg'
 
 function Ine() {
 
