@@ -29,7 +29,7 @@ function Last() {
                     <Form.Label className="fs-3 fw-medium">Reponse</Form.Label>
                     <Form.Control type="text" placeholder="reponse" {...register('reponse')}/>
                 </Form.Group>
-                {show === false && <p className="alert alert-danger">Votre réponse est incorrect</p>}
+                {show === false && <p className="alert alert-danger">La réponse est incorrect</p>}
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
