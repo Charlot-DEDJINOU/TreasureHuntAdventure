@@ -32,7 +32,7 @@ function App() {
               <Route path='/start/aze/1' element = {<Gbios />} />
               <Route path='/start/aqs/2' element = {<Enam />} />
               <Route path='/start/awd/3' element = {<Station />} />
-              <Route path='/start/aze/4' element = {<Auf />} />
+              <Route path='/start/azt/4' element = {<Auf />} />
               <Route path='/start/azc/5' element = {<ViceRectorat />} />
               <Route path='/start/azk/6' element = {<Moocs />} />
               <Route path='/trajet1/azk' element = {<Polyvalent />} />
