@@ -1,0 +1,11 @@
+p,li {
+    text-align: justify;
+}
+img {
+    width: 95%;
+    height: 300px;
+    object-fit: cover;
+}
+.location {
+    width: 95%;
+}
