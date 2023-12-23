@@ -36,7 +36,7 @@ function Enam() {
                 </p>
             </div>
             <div className="mb-3">
-                <h3>Devinez le Mot</h3>
+                <h3>Directive 2</h3>
                     <ul>
                         <li>Je suis une institution éducative.</li>
                         <li>Ma première lettre est au mulieux de la mer et au bout du monde.</li>
