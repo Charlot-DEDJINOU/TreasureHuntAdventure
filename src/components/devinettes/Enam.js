@@ -35,18 +35,15 @@ function Enam() {
                     Trouvez ce lieu où l'administration éclaire l'avenir.
                 </p>
             </div>
-            {/* <div className="mb-3">
+            <div className="mb-3">
                 <h3>Directive 2</h3>
-                <ul>
-                    <li>Je suis en un mot</li>
-                    <li>Ma première partie est en une seule lettre</li>
-                    <li>Ma deuxième partie est célèbre dans le monde informatique,
-                        Je suis le commencement, le lancement automatique.
-                        Quand le système s'éveille après son repos profond,
-                        Je suis le début, le point de départ, un moment fécond.
-                    </li>
-                </ul>
-            </div> */}
+                    <ul>
+                        <li>Je suis une institution éducative.</li>
+                        <li>Ma première lettre est au mulieux de la mer et au bout du monde.</li>
+                        <li>Je forme les futurs administrateurs et magistrats.</li>
+                        <li>Mon acronyme est souvent utilisé et est découpable en trois slabe</li>
+                    </ul>
+            </div>
             <Form className="mb-3"  onSubmit={handleSubmit(handleResponse)}>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label className="fs-3 fw-medium">Reponse</Form.Label>
