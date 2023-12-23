@@ -40,11 +40,11 @@ function App() {
               <Route path='/trajet1/aze' element = {<IdrissDeby />} />
               <Route path='/trajet1/azc' element = {<Obama />} />
               <Route path='/trajet2/awd' element = {<AmphiAmoussougan />} />
-              <Route path='/trajet2/aze' element = {<Enseignant />} />
+              <Route path='/trajet2/azt' element = {<Enseignant />} />
               <Route path='/trajet2/aze' element = {<Jardin />} />
               <Route path='/trajet2/azk' element = {<DecanatFSA />} />
               <Route path='/trajet3/aqs' element = {<BatimentE />} />
-              <Route path='/trajet3/aze' element = {<Confucius />} />
+              <Route path='/trajet3/azt' element = {<Confucius />} />
               <Route path='/trajet3/aze' element = {<Ine />} />
               <Route path='/trajet3/azc' element = {<Valdera />} />
               <Route path='/final/aqs/all' element = {<Last />} />
