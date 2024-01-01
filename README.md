@@ -1,4 +1,4 @@
-# Chasse au Trésor - Projet GitHub
+# Chasse au Trésor
 
 Bienvenue dans le projet de chasse au trésor ! Ce jeu interactif basé sur une application web React propose une aventure palpitante où chaque route définie dans `app.js` représente une étape de la quête. Résolvez des énigmes pour avancer et découvrez le chemin qui vous mènera au trésor tant convoité.
 
