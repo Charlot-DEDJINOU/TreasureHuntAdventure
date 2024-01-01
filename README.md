@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Chasse au Trésor - Projet GitHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue dans le projet de chasse au trésor ! Ce jeu interactif basé sur une application web React propose une aventure palpitante où chaque route définie dans `app.js` représente une étape de la quête. Résolvez des énigmes pour avancer et découvrez le chemin qui vous mènera au trésor tant convoité.
 
-## Available Scripts
+## Comment jouer
 
-In the project directory, you can run:
+1. **Points de départ**
+   - `/start/aze/1` - Gbios
+   - `/start/aqs/2` - Enam
+   - `/start/awd/3` - Station
+   - `/start/azt/4` - Auf
+   - `/start/azc/5` - ViceRectorat
+   - `/start/azk/6` - Moocs
 
-### `npm start`
+2. **Trajectoire 1**
+   - `/trajet1/azk` - Polyvalent
+   - `/trajet1/awd` - Pôle Innovation Technologie
+   - `/trajet1/aze` - Idriss Déby
+   - `/trajet1/azc` - Obama
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Trajectoire 2**
+   - `/trajet2/awd` - Amphi Amoussougan
+   - `/trajet2/azt` - Enseignant
+   - `/trajet2/aze` - Jardin
+   - `/trajet2/azk` - Decanat FSA
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Trajectoire 3**
+   - `/trajet3/aqs` - Bâtiment E
+   - `/trajet3/azt` - Confucius
+   - `/trajet3/aze` - Ine
+   - `/trajet3/azc` - Valdera
 
-### `npm test`
+5. **Point Final**
+   - `/final/aqs/all` - Dernière étape
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Comment exécuter le projet
 
-### `npm run build`
+1. Assurez-vous d'avoir Node.js installé sur votre machine.
+2. Clonez ce référentiel (`git clone https://github.com/Charlot-DEDJINOU/TreasureHuntAdventure`).
+3. Accédez au répertoire du projet (`cd TreasureHuntAdventure`).
+4. Installez les dépendances (`npm install`).
+5. Exécutez l'application (`npm start`).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Les contributions sont les bienvenues ! Si vous souhaitez ajouter de nouvelles énigmes, améliorer le design, ou corriger des bugs, n'hésitez pas à ouvrir une Pull Request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Amusez-vous bien dans votre chasse au trésor ! 🗺️💰
