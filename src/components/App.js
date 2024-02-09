@@ -21,6 +21,7 @@ import Obama from './devinettes/trajectoire1/Obama';
 import Enseignant from './devinettes/trajectoire2/Enseigant';
 import Jardin from './devinettes/trajectoire2/Jardin';
 import Ine from './devinettes/trajectoire3/Ine';
+import Exemple from './Exemple';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Router>
           <Header />
           <Routes>
+              <Route path="/" element={ <Exemple /> }/>
               <Route path='/start/aze/1' element = {<Gbios />} />
               <Route path='/start/aqs/2' element = {<Enam />} />
               <Route path='/start/awd/3' element = {<Station />} />
