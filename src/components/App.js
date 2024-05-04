@@ -22,35 +22,41 @@ import Enseignant from './devinettes/trajectoire2/Enseigant';
 import Jardin from './devinettes/trajectoire2/Jardin';
 import Ine from './devinettes/trajectoire3/Ine';
 import Exemple from './Exemple';
+import Footer from './footer/Footer';
 
 
 function App() {
   return (
    <React.StrictMode>
       <Router>
-          <Header />
-          <Routes>
-              <Route path="/" element={ <Exemple /> }/>
-              <Route path='/start/aze/1' element = {<Gbios />} />
-              <Route path='/start/aqs/2' element = {<Enam />} />
-              <Route path='/start/awd/3' element = {<Station />} />
-              <Route path='/start/azt/4' element = {<Auf />} />
-              <Route path='/start/azc/5' element = {<ViceRectorat />} />
-              <Route path='/start/azk/6' element = {<Moocs />} />
-              <Route path='/trajet1/azk' element = {<Polyvalent />} />
-              <Route path='/trajet1/awd' element = {<PoleInnovationTechnologie />} />
-              <Route path='/trajet1/aze' element = {<IdrissDeby />} />
-              <Route path='/trajet1/azc' element = {<Obama />} />
-              <Route path='/trajet2/awd' element = {<AmphiAmoussougan />} />
-              <Route path='/trajet2/azt' element = {<Enseignant />} />
-              <Route path='/trajet2/aze' element = {<Jardin />} />
-              <Route path='/trajet2/azk' element = {<DecanatFSA />} />
-              <Route path='/trajet3/aqs' element = {<BatimentE />} />
-              <Route path='/trajet3/azt' element = {<Confucius />} />
-              <Route path='/trajet3/aze' element = {<Ine />} />
-              <Route path='/trajet3/azc' element = {<Valdera />} />
-              <Route path='/final/aqs/all' element = {<Last />} />
-          </Routes>
+          <div className='flex flex-col min-h-screen'>
+            <Header />
+            <main className='flex-grow mb-3'>
+              <Routes>
+                  <Route path="/" element={ <Exemple /> }/>
+                  <Route path='/start/aze/1' element = {<Gbios />} />
+                  <Route path='/start/aqs/2' element = {<Enam />} />
+                  <Route path='/start/awd/3' element = {<Station />} />
+                  <Route path='/start/azt/4' element = {<Auf />} />
+                  <Route path='/start/azc/5' element = {<ViceRectorat />} />
+                  <Route path='/start/azk/6' element = {<Moocs />} />
+                  <Route path='/trajet1/azk' element = {<Polyvalent />} />
+                  <Route path='/trajet1/awd' element = {<PoleInnovationTechnologie />} />
+                  <Route path='/trajet1/aze' element = {<IdrissDeby />} />
+                  <Route path='/trajet1/azc' element = {<Obama />} />
+                  <Route path='/trajet2/awd' element = {<AmphiAmoussougan />} />
+                  <Route path='/trajet2/azt' element = {<Enseignant />} />
+                  <Route path='/trajet2/aze' element = {<Jardin />} />
+                  <Route path='/trajet2/azk' element = {<DecanatFSA />} />
+                  <Route path='/trajet3/aqs' element = {<BatimentE />} />
+                  <Route path='/trajet3/azt' element = {<Confucius />} />
+                  <Route path='/trajet3/aze' element = {<Ine />} />
+                  <Route path='/trajet3/azc' element = {<Valdera />} />
+                  <Route path='/final/aqs/all' element = {<Last />} />
+              </Routes>
+            </main>
+            <Footer />
+          </div>
       </Router>
    </React.StrictMode>
   );
